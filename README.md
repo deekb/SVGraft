@@ -2,11 +2,13 @@
 
 **SVGraft** splits a large SVG file into a multipage PDF, tiling it across standard print pages with configurable margins and alignment corner marks. It is designed for printing oversized vector graphics — such as posters, banners, or blueprints — on ordinary home or office printers.
 
+I developed the first version at an FRC competition to print a 25x30 poster for Engineering Inspiration judging on letter paper.
+
 ---
 
 ## Features
 
-- Splits any SVG into a grid of tiles that each fit on a single page
+- Splits any SVG (with a viewBox defined in mm or in) into a grid of tiles that each fit on a single page
 - Outputs a single merged PDF ready to print and assemble
 - Configurable page size, margins, and tile orientation
 - Automatic orientation optimization — chooses portrait or landscape to minimize page count
