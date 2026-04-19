@@ -18,6 +18,9 @@ classifiers = [
 license = "GPL-3.0-or-later"
 license-files = ["LICEN[CS]E*"]
 
+[tool.setuptools.dynamic]
+version = {attr = "svgraft.__version__"}
+
 [project.urls]
 Homepage = "https://github.com/deekb/SVGraft"
 Issues = "https://github.com/deekb/SVGraft/issues"
