@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--suppress ALL -->
+<svg
+   width="19.740717in"
+   height="13.779528in"
+   viewBox="0 0 19.740717 13.779528"
+   version="1.1"
+   id="svg1479"
+   sodipodi:docname="test_poster_inches.svg"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1484"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="in"
+     showgrid="false"
+     inkscape:zoom="0.37367887"
+     inkscape:cx="1301.92"
+     inkscape:cy="824.23713"
+     inkscape:window-width="1920"
+     inkscape:window-height="1008"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1479" />
+  <defs
+     id="defs1483">
+    <linearGradient
+       xlink:href="#linearGradient1026"
+       id="linearGradient1030"
+       x1="345"
+       y1="80"
+       x2="455"
+       y2="80"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.03937007,0,0,0.03937007,0.27092331,-0.25590556)" />
+    <linearGradient
+       id="linearGradient1026">
+      <stop
+         style="stop-color:#7b54ba;stop-opacity:1;"
+         offset="0"
+         id="stop1022" />
+      <stop
+         style="stop-color:#4637af;stop-opacity:0;"
+         offset="1"
+         id="stop1024" />
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect
+     width="19.68504"
+     height="13.779528"
+     fill="#1a1a2e"
+     id="rect1425"
+     x="0.02783874"
+     y="0"
+     style="stroke:none;stroke-width:0.0393701" />
+  <!-- Grid lines -->
+  <g
+     stroke="#2a2a4e"
+     stroke-width="0.5"
+     id="g1443"
+     transform="matrix(0.03937007,0,0,0.03937007,0.02783874,0)">
+    <line
+       x1="100"
+       y1="0"
+       x2="100"
+       y2="350"
+       id="line1427" />
+    <line
+       x1="200"
+       y1="0"
+       x2="200"
+       y2="350"
+       id="line1429" />
+    <line
+       x1="300"
+       y1="0"
+       x2="300"
+       y2="350"
+       id="line1431" />
+    <line
+       x1="400"
+       y1="0"
+       x2="400"
+       y2="350"
+       id="line1433" />
+    <line
+       x1="0"
+       y1="70"
+       x2="500"
+       y2="70"
+       id="line1435" />
+    <line
+       x1="0"
+       y1="140"
+       x2="500"
+       y2="140"
+       id="line1437" />
+    <line
+       x1="0"
+       y1="210"
+       x2="500"
+       y2="210"
+       id="line1439" />
+    <line
+       x1="0"
+       y1="280"
+       x2="500"
+       y2="280"
+       id="line1441" />
+  </g>
+  <!-- Colourful circles -->
+  <circle
+     cx="3.1774449"
+     cy="3.149606"
+     r="2.3622048"
+     fill="#e94560"
+     opacity="0.85"
+     id="circle1445"
+     style="stroke-width:0.0393701" />
+  <circle
+     cx="9.8703585"
+     cy="6.8897638"
+     r="3.9370077"
+     fill="#0f3460"
+     stroke="#e94560"
+     stroke-width="0.118111"
+     id="circle1447" />
+  <circle
+     cx="16.563272"
+     cy="10.629921"
+     r="2.7559054"
+     fill="#16213e"
+     stroke="#e94560"
+     stroke-width="0.0787399"
+     id="circle1449" />
+  <circle
+     cx="3.9648464"
+     cy="11.023622"
+     r="1.9685038"
+     fill="#e94560"
+     opacity="0.6"
+     id="circle1451"
+     style="stroke-width:0.0393701" />
+  <!-- Title text -->
+  <text
+     x="9.8703585"
+     y="7.2834644"
+     font-family="Arial, sans-serif"
+     font-size="1.10237px"
+     font-weight="bold"
+     fill="#ffffff"
+     text-anchor="middle"
+     dominant-baseline="middle"
+     id="text1455"
+     style="stroke-width:0.0393701">SVG POSTER TEST</text>
+  <text
+     x="9.8703585"
+     y="8.4645672"
+     font-family="Arial, sans-serif"
+     font-size="0.472441px"
+     fill="#e94560"
+     text-anchor="middle"
+     id="text1457"
+     style="stroke-width:0.0393701">500mm × 350mm — Tiling Demo</text>
+  <!-- Corner markers to verify alignment -->
+  <rect
+     x="0.22468913"
+     y="0.19685037"
+     width="1.1811024"
+     height="0.7874015"
+     fill="none"
+     stroke="#ffff00"
+     stroke-width="0.0787399"
+     id="rect1459" />
+  <text
+     x="0.81524032"
+     y="0.70866138"
+     font-family="Arial"
+     font-size="0.31496px"
+     fill="#ffff00"
+     text-anchor="middle"
+     id="text1461"
+     style="stroke-width:0.0393701">TL</text>
+  <rect
+     x="18.334927"
+     y="0.19685037"
+     width="1.1811024"
+     height="0.7874015"
+     fill="none"
+     stroke="#ffff00"
+     stroke-width="0.0787399"
+     id="rect1463" />
+  <text
+     x="18.925478"
+     y="0.70866138"
+     font-family="Arial"
+     font-size="0.31496px"
+     fill="#ffff00"
+     text-anchor="middle"
+     id="text1465"
+     style="stroke-width:0.0393701">TR</text>
+  <rect
+     x="0.22468913"
+     y="12.795276"
+     width="1.1811024"
+     height="0.7874015"
+     fill="none"
+     stroke="#ffff00"
+     stroke-width="0.0787399"
+     id="rect1467" />
+  <text
+     x="0.81524032"
+     y="13.307086"
+     font-family="Arial"
+     font-size="0.31496px"
+     fill="#ffff00"
+     text-anchor="middle"
+     id="text1469"
+     style="stroke-width:0.0393701">BL</text>
+  <rect
+     x="18.334927"
+     y="12.795276"
+     width="1.1811024"
+     height="0.7874015"
+     fill="none"
+     stroke="#ffff00"
+     stroke-width="0.0787399"
+     id="rect1471" />
+  <text
+     x="18.925478"
+     y="13.307086"
+     font-family="Arial"
+     font-size="0.31496px"
+     fill="#ffff00"
+     text-anchor="middle"
+     id="text1473"
+     style="stroke-width:0.0393701">BR</text>
+  <!-- Decorative arcs -->
+  <path
+     d="m 0.02783876,6.8897636 q 4.92125974,-4.9212597 9.84251944,0 4.9212598,4.9212594 9.8425198,0"
+     fill="none"
+     stroke="#e94560"
+     stroke-width="0.0787399"
+     opacity="0.5"
+     id="path1475" />
+  <path
+     d="m 0.02783876,6.8897636 q 4.92125974,4.9212594 9.84251944,0 4.9212598,-4.9212597 9.8425198,0"
+     fill="none"
+     stroke="#533483"
+     stroke-width="0.0787399"
+     opacity="0.5"
+     id="path1477" />
+  <circle
+     cx="16.018955"
+     cy="2.8937006"
+     r="2.1653543"
+     fill="#533483"
+     opacity="0.9"
+     id="circle30"
+     style="fill:url(#linearGradient1030);fill-opacity:1;stroke-width:0.0393701" />
+</svg>

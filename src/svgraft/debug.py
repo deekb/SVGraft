@@ -8,12 +8,12 @@ console = Console()
 
 DEBUG = True
 
-def debug(title, obj=None):
+def debug(title, obj=None, color="cyan"):
     if not DEBUG:
         return
 
     if obj is None:
-        console.print(f"[bold cyan]{title}[/bold cyan]")
+        console.print(f"[bold {color}]{title}[/bold {color}]")
     else:
         console.print(
             Panel(

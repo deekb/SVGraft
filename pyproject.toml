@@ -5,24 +5,24 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "SVGraft"
 dynamic = ["version"]
-authors = [{ name = "Derek Baier", email = "derek.m.baier@gmail.com" },
-]
+authors = [{ name = "Derek Baier", email = "derek.m.baier@gmail.com" },]
 description = "Split SVG files to multiple pages, with margins and guides"
 readme = "README.md"
 requires-python = ">=3.9"
-dependencies = ["cairocffi==1.7.1",
+dependencies = [
+    "cairocffi==1.7.1",
     "CairoSVG==2.9.0",
     "cffi==2.0.0",
     "cssselect2==0.9.0",
     "defusedxml==0.7.1",
-    "lxml==6.1.0",
-    "markdown-it-py==4.0.0",
+    "lxml==6.1.1",
+    "markdown-it-py==4.2.0",
     "mdurl==0.1.2",
     "pdf2image==1.17.0",
     "pillow==12.2.0",
     "pycparser==3.0",
     "Pygments==2.20.0",
-    "pypdf==6.10.2",
+    "pypdf==6.12.1",
     "rich==15.0.0",
     "tinycss2==1.5.1",
     "webencodings==0.5.1",
@@ -33,9 +33,11 @@ classifiers = ["Programming Language :: Python :: 3",
 license = "GPL-3.0-or-later"
 license-files = ["LICEN[CS]E*"]
 
-
 [tool.setuptools.dynamic]
 version = { attr = "svgraft.__version__" }
+
+[project.optional-dependencies]
+pymupdf = ["pymupdf==1.27.2.2"]
 
 [project.urls]
 Homepage = "https://github.com/deekb/SVGraft"

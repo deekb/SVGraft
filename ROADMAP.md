@@ -2,7 +2,7 @@
 
 ## Scale Control
 
-Currently SVGraft tiles an SVG at its native size. The goal is to let users control the output scale before tiling, with margins factored into every calculation.
+Currently, SVGraft tiles an SVG at its native size. The goal is to let users control the output scale before tiling, with margins factored into every calculation.
 
 ### Percentage scaling
 Scale the SVG up or down by a percentage of its original size before tiling.
@@ -16,7 +16,7 @@ Specify how many pages wide and/or tall the final tiled output should span. SVGr
 
 ```bash
 svgraft poster.svg --pages-wide 3
-svgraft poster.svg --pages-wide 3 --pages-tall 2
+svgraft poster.svg --pages-tall 2
 ```
 
 ### Target physical dimensions
@@ -34,7 +34,7 @@ All three modes must account for margins — the usable area per page (page size
 ## Broader Input Format Support
 
 ### PDF input
-Accept PDF files directly as input. The most viable path is converting each PDF page to an SVG (via a tool such as `pdf2svg` or `cairo`) and running it through the existing pipeline. Multi-page PDFs could either tile each page separately or be treated as a single document.
+Accept PDF files directly as input. The most viable path is converting each PDF page to an SVG (via a tool such as `pdf2svg` or `cairo`) and running it through the existing pipeline. Multipage PDFs could either tile each page separately or be treated as a single document.
 
 ```bash
 svgraft document.pdf --scale 200%
@@ -56,7 +56,7 @@ A shared conversion layer (e.g. `svgraft.converters`) could handle all non-SVG i
 
 ## Open Questions
 
-- **PDF multi-page input:** tile all pages into one output PDF, or produce one output PDF per input page?
+- **PDF multipage input:** tile all pages into one output PDF, or produce one output PDF per input page?
 - **Raster DPI threshold:** what minimum source DPI should trigger a warning, and should the user be able to suppress it?
 - **Scale conflict resolution:** if the user supplies both `--pages-wide` and `--output-width`, which wins — or should it be an error?
-- **Orientation optimisation with scaling:** when scaling to a target page count, should orientation optimisation be disabled (since the user has expressed an explicit layout intent)?
+- **Orientation optimization with scaling:** when scaling to a target page count, should orientation optimization be disabled (since the user has expressed an explicit layout intent)?
